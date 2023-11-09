@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/geeth/Project_Selenium">
+        <classes>
+            <class name="testcases.SwagLabs_Login">
+                <methods>
+                    <include name="validate_Browser_Title" />
+                    <include name="loginApp" />
+                    <include name="select_Item" />
+                    <include name="addToCart" />
+                    <include name="view_Cart" />
+                    <include name="check_Out" />
+                    <include name="details" />
+                    <include name="complete_purchase" />
+                    <include name="back_To_Products" />
+                </methods>
+            </class>
+            <class name="testcases.TCase1">
+                <methods>
+                    <include name="checkUrl" />
+                    <include name="validateTitle" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
